@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.5.4">
+	<LogEntries>
+		<Event>
+			<Time>4/15/2023 4:26:08 PM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Not found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\Windows\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\Windows\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\Windows\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Error>
+			<Time>4/15/2023 4:26:34 PM</Time>
+			<Message>System Restored Point could not be Created!</Message>
+			<ExceptionData>
+				<Win32_Message>O arquivo ou pasta está corrompido e ilegível</Win32_Message>
+				<Win32_ErrorName>ERROR_UNKNOWN (0x0570)</Win32_ErrorName>
+				<Win32_ErrorCode>1392 (0x570)</Win32_ErrorCode>
+				<TargetSite>StartRestore</TargetSite>
+				<Source>Display Driver Uninstaller</Source>
+				<StackTrace>   at Display_Driver_Uninstaller.Win32.SystemRestore.StartRestore(String strDescription, RESTORE_TYPE restoreType, Int64&amp; result) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\Win32\SystemRestore.vb:line 175
+   at Display_Driver_Uninstaller.frmSystemRestore.CreateSystemRestore() in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\frmSystemRestore.xaml.vb:line 34</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Event>
+			<Time>4/15/2023 4:26:34 PM</Time>
+			<Message>Restarting in safemode</Message>
+		</Event>
+		<Event>
+			<Time>4/15/2023 4:26:34 PM</Time>
+			<Message>Restarting Computer </Message>
+		</Event>
+		<Event>
+			<Time>4/15/2023 4:26:34 PM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>

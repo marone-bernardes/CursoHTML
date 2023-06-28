@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(233, 188, 130);background-attachment: fixed;
+  
+}
+
+h1{
+    color: rgb(194, 25, 13);
+}
+div{
+    display: inline-block;
+    background-color: rgb(40, 38, 34);
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    
+
+}
+div > p{
+    display: none;
+}
+div#div1:hover> p{
+    
+    display: block;
+    color: rgb(194, 8, 8);
+    
+  
+}
+div#div1:hover{
+    background-color: rgb(21, 255, 0);
+    color: rgb(194, 8, 8);
+}
+div#div2:hover{
+    background-color: rgb(251, 255, 134);
+    color: rgb(194, 8, 8);
+}
+div#div3:hover{
+    background-color: red;
+    color: rgb(194, 8, 8);
+}

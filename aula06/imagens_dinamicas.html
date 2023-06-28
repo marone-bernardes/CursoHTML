@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas e audios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criando uma imagem dinamica</h1>
+    
+    <picture>
+        <source media="(min-width:900px )" srcset="imagem_grande.png" type="image/png">
+        <source media="(min-width: 600px )" srcset="imagem_media.png" type="image/png">
+        <img src="imagem_pequena.png" alt="imagem para telas pequenas">
+    </picture>
+
+<h1>colocando um audio na página</h1>
+
+<audio preload="metadata" controls loop>
+    <source src="guagua.mp3" type="audio/mpeg">
+</audio>
+</html>

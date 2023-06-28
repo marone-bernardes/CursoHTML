@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.5.4">
+	<LogEntries>
+		<Event>
+			<Time>1/9/2023 1:11:53 PM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>C:\Users\maron\Downloads\DDU v18.0.5.4\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Not found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\Windows\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\Windows\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\Windows\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>1/9/2023 1:12:17 PM</Time>
+			<Message>System Information</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>DDU Version</Key>
+					<Value>18.0.5.4</Value>
+				</KvP>
+				<KvP>
+					<Key>OS</Key>
+					<Value>Windows 10</Value>
+				</KvP>
+				<KvP>
+					<Key>Win 10 1809+ ?</Key>
+					<Value>True</Value>
+				</KvP>
+				<KvP>
+					<Key>Architecture</Key>
+					<Value>x64</Value>
+				</KvP>
+				<KvP>
+					<Key>UserRights</Key>
+					<Value>Admin</Value>
+				</KvP>
+				<KvP>
+					<Key>Arguments</Key>
+					<Value>&lt;empty&gt;</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>GPU #0000</Key>
+					<Value>AMD Radeon(TM) Graphics</Value>
+				</KvP>
+				<KvP>
+					<Key>GPU DeviceID</Key>
+					<Value>PCI\VEN_1002&amp;DEV_1638&amp;SUBSYS_88091043&amp;REV_C9</Value>
+				</KvP>
+				<KvP>
+					<Key>Vbios</Key>
+					<Value>113-CEZANNE-018</Value>
+				</KvP>
+				<KvP>
+					<Key>Detected Driver(s) Version(s)</Key>
+					<Value>30.0.13014.8</Value>
+				</KvP>
+				<KvP>
+					<Key>INF name</Key>
+					<Value>oem2.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>INF section</Key>
+					<Value>ati2mtag_Cezanne</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Warning>
+			<Time>1/9/2023 1:12:17 PM</Time>
+			<Message>We are not in Safe Mode</Message>
+		</Warning>
+		<Event>
+			<Time>1/9/2023 1:12:17 PM</Time>
+			<Message>The following third-party driver packages are installed on this computer</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Value>C:\Windows\inf\oem0.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem1.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem2.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem3.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem4.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SecurityDevices</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem5.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\Windows\inf\oem6.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Event>
+			<Time>1/9/2023 1:12:23 PM</Time>
+			<Message>Trying to impersonate the SYSTEM account... SUCCESS !</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>Number of process to check</Key>
+					<Value>128</Value>
+				</KvP>
+				<KvP>
+					<Key>services</Key>
+					<Value>Acesso negado</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>Skipping : S-1-5-21-860538551-1244866049-3043446873-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>Acesso negado</Value>
+				</KvP>
+				<KvP>
+					<Key>opera</Key>
+					<Value>Skipping : S-1-5-21-860538551-1244866049-3043446873-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>opera</Key>
+					<Value>Skipping : S-1-5-21-860538551-1244866049-3043446873-1001</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>S-1-5-18</Value>
+				</KvP>
+				<KvP>
+					<Key>svchost</Key>
+					<Value>SYSTEM account impersonalisation SUCCESS</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>1/9/2023 1:12:23 PM</Time>
+			<Message>Reverting the Impersonalisation is successful !</Message>
+		</Event>
+		<Event>
+			<Time>1/9/2023 1:13:18 PM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>
